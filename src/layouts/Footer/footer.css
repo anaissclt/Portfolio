@@ -1,0 +1,43 @@
+footer {
+    background-color: #000;
+    color:#fff;
+    padding: 10px;
+}
+
+.container-footer {
+    margin: 64px auto 0;
+    text-align: center;
+    max-width: 600px;
+}
+
+.container-footer h2 {
+    margin: auto;
+    max-width: 600px;
+    border-top: 4px solid white;
+    padding-top: 6px;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+
+.container-footer-text {
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+  }
+  
+  .container-footer-text a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #e486a6;
+  }
+
+.container-footer-email {
+    background-color: #060606;
+    border-radius: 8px;
+    color: #e486a6;
+    font-size: 1rem;
+    padding: 18px;
+    border: none;
+    cursor: pointer;
+    margin: 24px 0;
+}

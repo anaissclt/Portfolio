@@ -1,0 +1,40 @@
+header {
+    background-color: #000;
+    color:#fff;
+    padding: 10px;
+}
+
+.container-header {
+    margin: auto 0;
+    text-align: center;
+    min-width: 600px;
+    display:flex;
+    justify-content:space-between;
+    padding-block:30px;
+    align-items:center
+}
+
+.container-header h1 {
+    margin: 30px;
+    letter-spacing: 1px;
+}
+
+.container-header-text {
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+  }
+  
+.nav ul {
+    display:flex;
+    list-style-type:none;
+    margin-bottom:0
+}
+.nav li {
+    padding-inline:10px;
+}
+
+.nav a {
+    text-decoration:none;
+    color:white ;
+}
