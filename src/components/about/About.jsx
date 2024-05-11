@@ -1,15 +1,28 @@
 // STYLE
+import "./about.css";
+import "../../assets/style.scss";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function About() {
   return (
-   
-      <div>
-        <h1>A propos de moi</h1>
-        <p>Integrateur web- Développeur Front-end. </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe cupiditate illo tempore perspiciatis vero. Placeat, unde dolorem et libero iusto quod illum! Dolores excepturi itaque ratione nobis unde dolorum nostrum.</p>
-        <p> Bouton lien </p>
-      </div>
- 
+    <div className="container-about">
+      <h1 className="about-title">A propos de moi</h1>
+      <p className="about-job-description">
+      Bonjour et bienvenue sur mon portfolio !
+      </p>
+      <p className="about-content">
+      Je suis une développeuse web de 23 ans, tout juste sortie de ma formation et avide d'explorer les vastes horizons du développement. 
+      Explorez mes projets et découvrez mon univers sur GitHub ci-dessous !
+      </p>
+      <p className="about-button-section">
+        <a href="#" className="button">
+          <FontAwesomeIcon icon={faGithub} />
+          {" "}GitHub
+        </a>
+      </p>
+    </div>
   );
 }
 

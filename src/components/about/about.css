@@ -1,0 +1,32 @@
+
+.container-about {
+    max-width: 600px; 
+    margin: 60px auto; 
+    padding: 20px; 
+    background-color: #fff; 
+    border-radius: 50% 20% / 10% 40%; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.about-title {
+    font-size: 24px;
+    color: #FEC501; 
+    margin-bottom: 10px;
+}
+
+.about-job-description {
+    font-size: 16px; 
+    margin-bottom: 15px; 
+}
+
+.about-content {
+    font-size: 16px; 
+    line-height: 1.5; 
+    margin-bottom: 15px; 
+}
+
+.about-button-section {
+    text-align: center;
+}
+
+  
