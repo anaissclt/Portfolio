@@ -1,0 +1,52 @@
+{
+    "projets": [
+      {
+        "nom": "Booki",
+        "description": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS.",
+        "competences": ["HTML", "CSS", "Responsive"],
+        "lien": "https://github.com/anaissclt/OcBooki"
+      },
+      {
+        "nom": "Ohmyfood",
+        "description": "Amélioration d'une interface pour un site mobile avec des animations CSS.",
+        "competences": ["Github", "Git", "animations CSS"],
+        "lien": "https://github.com/anaissclt/OCohmyfood"
+      },
+      {
+        "nom": "Portfolio - Sophie Bluel",
+        "description": "Création d'une page web dynamique avec JavaScript.",
+        "competences": ["JavaScript"],
+        "lien": "https://github.com/anaissclt/OcSophieBluel"
+      },
+      {
+        "nom": "Qwenta - Menu Maker ",
+        "description": "Planification le développement du site de votre client.",
+        "competences": ["gestion de projet", "veille technologique"],
+        "lien": ""
+      },
+      {
+        "nom": "Kasa",
+        "description": "Créez une application web de location immobilière avec React.",
+        "competences": ["Create React App", "React Router"],
+        "lien": "https://github.com/anaissclt/OcKasa"
+      },
+      {
+        "nom": "Portfolio - Nina Carducci",
+        "description": "Optimisez le référencement d'un site de photographe.",
+        "competences": ["SEO"],
+        "lien": "https://github.com/anaissclt/OcNinaCarducci"
+      },
+      {
+        "nom": "724events",
+        "description": "Débuggez le site d'une agence d'événementiel.",
+        "competences": ["Chrome DevTools"],
+        "lien": "https://github.com/anaissclt/Oc724Events"
+      },
+      {
+        "nom": "Argent Bank",
+        "description": "Implémentez le front-end d'une application bancaire avec React.",
+        "competences": ["communication client / serveur","Redux"],
+        "lien": "https://github.com/anaissclt/OcArgentBank_Frontend"
+      }
+    ]
+  }
