@@ -1,5 +1,7 @@
+
+
 footer {
-    background-color: #000;
+    background-color: #FE3A4A;
     color:#fff;
     padding: 10px;
 }
@@ -13,7 +15,7 @@ footer {
 .container-footer h2 {
     margin: auto;
     max-width: 600px;
-    border-top: 4px solid white;
+    border-top: 4px solid #FEC501;
     padding-top: 6px;
     font-size: 1.6rem;
     letter-spacing: 1px;
@@ -28,13 +30,13 @@ footer {
   .container-footer-text a {
     display: inline-block;
     margin-top: 10px;
-    color: #e486a6;
+    color: #FEC501;
   }
 
 .container-footer-email {
-    background-color: #060606;
+    background-color: #FEC501;
     border-radius: 8px;
-    color: #e486a6;
+    color: #fff;
     font-size: 1rem;
     padding: 18px;
     border: none;
