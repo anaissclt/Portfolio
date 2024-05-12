@@ -17,7 +17,7 @@ function About() {
       Explorez mes projets et découvrez mon univers sur GitHub ci-dessous !
       </p>
       <p className="about-button-section">
-        <a href="#" className="button">
+        <a href="https://github.com/anaissclt" className="button">
           <FontAwesomeIcon icon={faGithub} />
           {" "}GitHub
         </a>
