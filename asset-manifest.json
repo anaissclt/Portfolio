@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4b5d915c.css",
-    "main.js": "/Portfolio/static/js/main.58f99a8b.js",
+    "main.css": "/Portfolio/static/css/main.0c2fb70f.css",
+    "main.js": "/Portfolio/static/js/main.89a6bf5c.js",
+    "static/media/sophie-bluel.webp": "/Portfolio/static/media/sophie-bluel.603aca9ea42feb5419c4.webp",
+    "static/media/nina.webp": "/Portfolio/static/media/nina.872e45d0d354412a9b4f.webp",
+    "static/media/ohmyfood.webp": "/Portfolio/static/media/ohmyfood.a3000a2a932a20d368b7.webp",
+    "static/media/724events.webp": "/Portfolio/static/media/724events.fb1b130b27b28ed59781.webp",
+    "static/media/qwenta.webp": "/Portfolio/static/media/qwenta.29a7069718729c32ff1f.webp",
+    "static/media/argentBank.webp": "/Portfolio/static/media/argentBank.d84c3dd6c6b51070a60c.webp",
     "index.html": "/Portfolio/index.html",
-    "main.4b5d915c.css.map": "/Portfolio/static/css/main.4b5d915c.css.map",
-    "main.58f99a8b.js.map": "/Portfolio/static/js/main.58f99a8b.js.map"
+    "main.0c2fb70f.css.map": "/Portfolio/static/css/main.0c2fb70f.css.map",
+    "main.89a6bf5c.js.map": "/Portfolio/static/js/main.89a6bf5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b5d915c.css",
-    "static/js/main.58f99a8b.js"
+    "static/css/main.0c2fb70f.css",
+    "static/js/main.89a6bf5c.js"
   ]
 }
