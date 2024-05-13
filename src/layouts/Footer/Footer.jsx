@@ -7,7 +7,7 @@ import "./footer.css";
 function Footer() {
   return (
     <footer>
-      <div className="container-footer">
+      <div className="container-footer" id="contact">
         <h2>Me contacter</h2>
         <div className= "container-footer-email button">
         <a href="mailto:anais.fayeulle.af@gmail.com">anais.fayeulle.af@gmail.com</a>

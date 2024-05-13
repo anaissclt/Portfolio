@@ -1,5 +1,6 @@
 // IMPORT
 import React from "react";
+import { Link } from "react-router-dom"; 
 
 // STYLE
 import "./header.css";
@@ -12,9 +13,9 @@ function Header() {
         <h1>Anais Fayeulle</h1>
         <nav className="nav">
 				<ul>
-					<li><a href="#about">À propos</a></li>
-					<li><a href="#gallery">Projets</a></li>
-					<li><a href="#contact">Contact</a></li>
+        <li><a href="#about">À propos</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
       </div>

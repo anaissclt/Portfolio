@@ -1,7 +1,7 @@
 
 
 footer {
-    background-color: #FE3A4A;
+    background-color: #034f2c;
     color:#fff;
     padding: 10px;
 }
@@ -42,4 +42,8 @@ footer {
     border: none;
     cursor: pointer;
     margin: 24px 0;
+}
+
+.container-footer-email a{
+    color: #fff;
 }
