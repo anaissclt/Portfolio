@@ -5,8 +5,8 @@
 .project-title-h1 {
   max-width: 600px;
   margin: 10px auto;
-  color: #FE3A4A;
-  border-top: 4px solid #FEC501;
+  color: #034F2C;
+  border-top: 4px solid #fec501;
   padding-top: 6px;
   letter-spacing: 1px;
 }
@@ -20,21 +20,27 @@
 }
 
 .project-item {
-  flex: 1 1 calc(50% - 20px); 
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: calc(50% - 20px);
   max-width: 400px;
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .project-item:hover {
-  box-shadow: 0px 0px 10px #FE3A4A
+  box-shadow: 0px 0px 10px #034F2C;
 }
 
 .project-title {
   font-size: 20px;
-  color: #FEC501;
+  color: #fec501;
   margin-bottom: 10px;
 }
 
@@ -43,14 +49,29 @@
   margin-bottom: 15px;
 }
 
+.competences {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .project-competences {
-  font-size: 16px;
-  margin-bottom: 15px;
+  background-color: #034F2C;
+  opacity: 50%;
+  color: #fff;
+  border-radius: 15px;
+  padding: 5px 6px;
+  font-size: 15px;
+  margin: 10px;
+  width: 110px;
+  display: flex;
+  height: 42px;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .12);
 }
 
 .project-link {
-  display: block;
   text-align: center;
   margin-top: 15px;
-  color: #007bff;
 }

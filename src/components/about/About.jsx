@@ -1,4 +1,5 @@
 // STYLE
+import React, { useState, useEffect } from 'react';
 import "./about.css";
 import "../../assets/style.scss";
 
@@ -6,8 +7,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function About() {
+  
+  const [isBouncing, setIsBouncing] = useState(false);
+
+  useEffect(() => {
+    setIsBouncing(true);
+  }, []);
+
+
   return (
-    <div className="container-about">
+    <div className={`container-about ${isBouncing ? 'bouncing' : ''}`} id="about">
       <h1 className="about-title">A propos de moi</h1>
       <p className="about-job-description">
       Bonjour et bienvenue sur mon portfolio !

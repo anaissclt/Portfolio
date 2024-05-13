@@ -8,6 +8,10 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
 }
 
+.container-about.bouncing {
+    animation: bounceIn 0.75s ease both;
+  }
+  
 .about-title {
     font-size: 24px;
     color: #FEC501; 
