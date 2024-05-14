@@ -43,3 +43,23 @@ header {
   text-decoration: none;
   color: white;
 }
+
+@media only screen and (max-width: 600px) {
+  .container-header {
+    flex-direction: column;
+    min-width: auto;
+    padding-block: 20px;
+  }
+
+  .container-header h1 {
+    margin: 20px 0;
+  }
+
+  .nav {
+    justify-content: center;
+  }
+
+  .nav li {
+    padding: 10px 5px;
+  }
+}
