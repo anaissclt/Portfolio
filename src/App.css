@@ -1,5 +1,6 @@
 body {
   margin: 0;
+	padding: 0;
   display: flex;
   flex-direction: column;
   min-width: 100vh;
@@ -7,10 +8,17 @@ body {
 }
 
 html {
-  font-size: 125%;
+  font-size: 100%;
   background-color: #faf5ef;
+  /* background-color: #DFF0D8; */
 }
 
 a {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    min-width: auto;
+  }
 }
