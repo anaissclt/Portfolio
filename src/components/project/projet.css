@@ -75,3 +75,16 @@
   text-align: center;
   margin-top: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+  .projects-container {
+    margin: 10px; 
+  }
+
+  .competences {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+}
