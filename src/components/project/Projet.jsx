@@ -16,7 +16,7 @@ const Project = () => {
     <div className="projects-container">
       {projectsData.map((project, index) => (
         <div key={index} className="project-item">
-          <h3 className="project-title">{project.nom}</h3>
+          <h2 className="project-title">{project.nom}</h2>
           <p className="project-description">{project.description}</p>
           <img width={200} src={project.url} alt={project.alt} /> 
           <div className='competences'>
