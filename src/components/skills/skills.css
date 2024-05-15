@@ -9,6 +9,7 @@
     border-top: 4px solid #FEC501;
     padding-top: 6px;
     letter-spacing: 1px;
+    font-size: 2rem;
   }
   
   .skills-container {
@@ -31,12 +32,12 @@
   }
   
   .skills-item:hover {
-    box-shadow: 0px 0px 10px #034F2C
+    box-shadow: 0px 0px 10px #FEC501
   }
   
   .skills-title {
-    font-size: 20px;
-    color: #FEC501;
+    font-size: 1rem;
+    color: #034f2c;
     margin-bottom: 10px;
   }
   

@@ -13,18 +13,18 @@
   }
   
 .about-title {
-    font-size: 24px;
-    color: #FEC501; 
+    font-size: 2rem;
+    color: #034F2C; 
     margin-bottom: 10px;
 }
 
 .about-job-description {
-    font-size: 16px; 
+    font-size: 1rem;
     margin-bottom: 15px; 
 }
 
 .about-content {
-    font-size: 16px; 
+    font-size: 1rem;
     line-height: 1.5; 
     margin-bottom: 15px; 
 }

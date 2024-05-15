@@ -31,7 +31,7 @@ const Skill = () => {
   const duplicatedSkills = SkillsData.concat(SkillsData);
   
   return (
-    <div className='div-skills'>
+    <div className='div-skills' id="skills">
       <h1 className="skills-title-h1">Mes compétences</h1>
       <div className="skills-outer-container">
         <div className="skills-container" ref={containerRef}>

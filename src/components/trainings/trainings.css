@@ -9,6 +9,7 @@
   border-top: 4px solid #fec501;
   padding-top: 6px;
   letter-spacing: 1px;
+  font-size: 2rem;
 }
 
 .container-trainings {
@@ -35,7 +36,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    color: #fec501;
+    color: #034f2c;
 }
 
 .training-details {
@@ -44,4 +45,8 @@
 
 ul {
     list-style-type: none;
+  }
+
+  .training-description {
+    font-size: 1rem;
   }

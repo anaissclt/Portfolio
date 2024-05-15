@@ -24,7 +24,7 @@ const Trainings = () => {
   };
 
   return (
-    <div className="div-trainings">
+    <div className="div-trainings" id="formation">
       <h1 className="trainings-title-h1">Mes formations</h1>
       <div className="container-trainings">
         <div className="training-details">
@@ -45,7 +45,7 @@ const Trainings = () => {
               </div>
               {/* Affiche la description si la collapse est ouverte */}
               {selectedTrainingIndex === index && (
-                <div>
+                <div  className="training-description">
                   <p>{training.description}</p>
                   {Array.isArray(training.details) && (
                     <ul>

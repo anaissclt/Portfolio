@@ -9,6 +9,7 @@
   border-top: 4px solid #fec501;
   padding-top: 6px;
   letter-spacing: 1px;
+  font-size: 2rem;
 }
 
 .projects-container {
@@ -35,17 +36,17 @@
 }
 
 .project-item:hover {
-  box-shadow: 0px 0px 10px #034F2C;
+  box-shadow: 0px 0px 10px #FEC501;
 }
 
 .project-title {
-  font-size: 20px;
-  color: #fec501;
+  font-size: 1.5rem;
+  color: #034F2C;
   margin-bottom: 10px;
 }
 
 .project-description {
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 15px;
 }
 
@@ -57,11 +58,10 @@
 
 .project-competences {
   background-color: #034F2C;
-  opacity: 50%;
   color: #fff;
   border-radius: 15px;
   padding: 5px 6px;
-  font-size: 15px;
+  font-size: 1rem;
   margin: 10px;
   width: 110px;
   display: flex;

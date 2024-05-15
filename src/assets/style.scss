@@ -1,13 +1,16 @@
 .button {
     display: inline-block; 
     padding: 10px 20px; 
-    background-color: #FEC501; 
-    color: #fff; 
+    background-color: #FAF5EF; 
+    color: #034F2C; 
+    box-shadow: 0px 0px 10px #034F2C;
     text-decoration: none; 
     border-radius: 5px; 
+    font-size: 1rem;
     transition: background-color 0.3s ease; 
   
     &:hover {
       background-color: #034F2C;
+      color: #fff;
     }
   }

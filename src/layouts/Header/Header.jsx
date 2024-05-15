@@ -3,7 +3,7 @@ import React from "react";
 
 // STYLE
 import "./header.css";
-import "../../assets/animations/animations.css"
+import "../../assets/animations/animations.css";
 
 function Header() {
   return (
@@ -11,12 +11,24 @@ function Header() {
       <div className="container-header">
         <h1>Anais Fayeulle</h1>
         <nav className="nav">
-				<ul>
-        <li><a href="#about">À propos</a></li>
-            <li><a href="#projects">Projets</a></li>
-            <li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
+          <ul>
+            <li>
+              <a href="#about">À propos</a>
+            </li>
+            <li>
+              <a href="#projects">Projets</a>
+            </li>
+            <li>
+              <a href="#skills">Compétences</a>
+            </li>
+            <li>
+              <a href="#formation">Formations</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
   );
