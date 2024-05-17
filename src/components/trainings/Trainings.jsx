@@ -6,15 +6,19 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import "./trainings.css";
 
 const Trainings = () => {
+  // stocke les données 
   const [trainingsData, setTrainingsData] = useState([]);
+  // index de la formation sélectionnée
   const [selectedTrainingIndex, setSelectedTrainingIndex] = useState(null);
 
+  // charge les données 
   useEffect(() => {
     import("../../assets/datas/trainings.json").then((data) => {
       setTrainingsData(data.default);
     });
   }, []);
 
+  // maj de l'index pour ouvrir ou fermer la description 
   const handleTrainingClick = (index) => {
     if (selectedTrainingIndex === index) {
       setSelectedTrainingIndex(null);

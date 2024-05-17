@@ -43,7 +43,7 @@ const projets = [
       },
       {
         "nom": "Kasa",
-        "description": "Créez une application web de location immobilière avec React.",
+        "description": "Création d'une application web de location immobilière avec React.",
         "competences": ["Create React App", "React Router"],
         "lien": "https://github.com/anaissclt/OcKasa",
         "url": kasaImage,
@@ -51,7 +51,7 @@ const projets = [
       },
       {
         "nom": "Portfolio - Nina Carducci",
-        "description": "Optimisez le référencement d'un site de photographe.",
+        "description": "Optimisation du référencement d'un site de photographe.",
         "competences": ["SEO"],
         "lien": "https://github.com/anaissclt/OcNinaCarducci",
         "url": ninaImage,
@@ -59,7 +59,7 @@ const projets = [
       },
       {
         "nom": "724events",
-        "description": "Débuggez le site d'une agence d'événementiel.",
+        "description": "Débuggage d'un site d'agence d'événementiel.",
         "competences": ["Chrome DevTools"],
         "lien": "https://github.com/anaissclt/Oc724Events",
         "url": eventsImage,
@@ -67,7 +67,7 @@ const projets = [
       },
       {
         "nom": "Argent Bank",
-        "description": "Implémentez le front-end d'une application bancaire avec React.",
+        "description": "Implémentation le front-end d'une application bancaire avec React.",
         "competences": ["Communication client / serveur","Redux"],
         "lien": "https://github.com/anaissclt/OcArgentBank_Frontend",
         "url": bankImage,
